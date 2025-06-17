@@ -1,0 +1,25 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in); // Create a Scanner object
+    System.out.println("Enter the runner's name:");
+
+    String userName = myObj.nextLine(); // Read user input
+
+    String str = userName;
+
+    // capitalize first letter
+    String output = str.substring(0, 1).toUpperCase() + str.substring(1);
+    System.out.println("The runner's name is: " + output); // Output user input
+
+    float runner1 = 12.2f;
+    float runner2 = 10.6f;
+    float runner3 = 5.8f;
+
+    float mySum = (runner1 + runner2 + runner3);
+    System.out.println(mySum + "km is the total distance run by " + output);
+
+  }
+
+}
