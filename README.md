@@ -17,8 +17,5 @@ test 6\
 test 7\
 test 8\
 test 9\
-<<<<<<< Updated upstream
-=======
 test 10\
 test 11\
->>>>>>> Stashed changes
